@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: welcome-api
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+server:
+  port: 9091
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      enabled: true
