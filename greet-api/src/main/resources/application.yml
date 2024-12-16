@@ -5,7 +5,9 @@ spring:
     admin:
       client:
         url: http://localhost:1111/
-
+eureka:
+  instance:
+    hostname: localhost
 
 management:
   endpoints:
@@ -19,3 +21,4 @@ management:
   zipkin:
     tracing:
       enabled: true
+

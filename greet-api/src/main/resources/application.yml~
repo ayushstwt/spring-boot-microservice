@@ -5,8 +5,7 @@ spring:
     admin:
       client:
         url: http://localhost:1111/
-server:
-  port: 9091
+
 
 management:
   endpoints:
@@ -20,3 +19,7 @@ management:
   zipkin:
     tracing:
       enabled: true
+
+eureka:
+  instance:
+    hostname: localhost
