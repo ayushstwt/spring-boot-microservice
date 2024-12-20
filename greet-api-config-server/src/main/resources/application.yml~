@@ -1,0 +1,16 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8080
+  application:
+    name: greet
+  active:
+    profiles: dev
+
+server:
+  port: 8081
+
+
+
+
+
+

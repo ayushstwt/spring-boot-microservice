@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: greet
+
+server:
+  port: 8081
+
+
+
+

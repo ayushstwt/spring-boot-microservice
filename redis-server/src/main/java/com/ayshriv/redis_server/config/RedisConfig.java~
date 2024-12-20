@@ -28,5 +28,5 @@ public class RedisConfig {
         RedisTemplate<String, Country> redisTemplate=new RedisTemplate<>();
         redisTemplate.setConnectionFactory(jedisConnectionFactory());
         return redisTemplate;
-    }
+    } 
 }

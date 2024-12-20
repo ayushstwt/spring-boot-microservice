@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ayushstwt/configuration_properties.git
+
+management:
+  sercurity:
+      enabled: false
